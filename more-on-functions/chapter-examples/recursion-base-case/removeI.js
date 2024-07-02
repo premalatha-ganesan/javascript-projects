@@ -1,10 +1,11 @@
 function removeI(arr) {
-    if (/* Enter base case test here */){
+    if (!arr || arr.length === 0 ){
       return arr;
-    } else {
+    } else if (arr.indexOf('i') != -1){
       arr.splice(arr.indexOf('i'),1);
-      return removeI(arr);
     }
+      return removeI(arr);
+    
 };
 
 let arrayToChange = ['One', 'i', 'c', 'X', 'i', 'i', 54];
