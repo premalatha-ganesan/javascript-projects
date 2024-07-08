@@ -10,6 +10,10 @@ function randomSelection(arr){
  for (i=0; i < 8; i++){
    console.log(randomSelection(happiness));
  }
+
+ let num = Math.floor(Math.random()*10);
+
+   console.log(num);
  
  //Experiment with the code above. Try to:
  //a) Print 3 random selections from each array.
